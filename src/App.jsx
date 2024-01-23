@@ -1,6 +1,6 @@
 import "./index.css";
 import "./App.css";
-import Questions from "./component/Questions";
+import Questions from "./components/Questions";
 
 function App() {
   return (

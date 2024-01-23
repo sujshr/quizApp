@@ -8,9 +8,10 @@ button {
   border: none;
   border-radius: 5px;
   margin: 5px;
-  color: #ffffff;
+  color: white;
   transition: all 0.3s ease-in-out;
 }
+
 
 button:hover {
   transform: translateX(-1px) translateY(-1px);
@@ -18,30 +19,38 @@ button:hover {
 }
 #previous {
   background-color: #3498db;
-  color: #ffffff;
 }
 
 #next {
   background-color: #2ecc71;
-  color: #ffffff;
 }
 
 #quit {
-  background-color: #e74c3c;
-  color: #ffffff;
+  background-color: #e47600;
 }
 
+#endButton {
+  background-color: #e74c3c;
+}
 #previous:hover {
   background-color: #20a4fd;
-  color: #ffffff;
 }
 
 #next:hover {
   background-color: #00ca54;
-  color: #ffffff;
 }
 
 #quit:hover {
-  background-color: #e43623;
-  color: #ffffff;
+  background-color: #c56300;
+}
+#endButton:hover {
+  background-color: #c51000;
+}
+
+#cancleButton {
+  background-color: #00b5c5;
+}
+
+#cancleButton:hover {
+  background-color: #00d5ff;
 }
